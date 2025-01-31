@@ -4,13 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pawsome Website</title>
-</head>
-<body>
-    <header>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/e658cdff66.js" crossorigin="anonymous"></script>
+    
+    <!-- gFont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
 
+    <!-- daisy cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .font-adlam{
+            font-family: "ADLaM Display", serif;
+        }
+        .font-sora{
+            font-family: "Sora", serif;
+        }
+    </style>
+</head>
+<body class="font-adlam">
+    <header>
+      <nav class="bg-[#FFF9F4] py-4 font-sora border-b md:border-b-0 border-black">
+        <div class="md:container mx-auto flex items-center justify-between">
+          <div class="flex items-center">
+            <img src="images/logo-header.png" alt="Logo" class="h-8 mx-2">
+            <span class="text-2xl text-black sr-only md:not-sr-only">Browse<span class="text-yellow-300">4</span>Pets</span>
+          </div>
+          <div class="flex space-x-6 font-sora sr-only md:not-sr-only">
+            <a href="#" class="text-gray-600 hover:text-black">Find a pet</a>
+            <a href="#" class="text-gray-600 hover:text-black">Breeds</a>
+            <a href="#" class="text-gray-600 hover:text-black">Contact us</a>
+          </div>
+          <div><i class="fa-solid fa-bars block md:hidden mr-4 text-2xl"></i></div>
+          <div class="flex items-center  space-x-4 sr-only md:not-sr-only">
+            <i class="fa-regular fa-bell text-xl"></i>
+            <i class="fa-solid fa-magnifying-glass text-xl"></i>
+            <button class="border border-yellow-400 text-black px-4 py-1 rounded hover:bg-amber-200">Login</button>
+            <button class="bg-yellow-400 text-black px-4 py-1 rounded hover:bg-amber-500">Register</button>
+          </div>
+        </div>
+      </nav>
+        </nav>
     </header>
     <main>
-
+    
     </main>
     <footer>
         
